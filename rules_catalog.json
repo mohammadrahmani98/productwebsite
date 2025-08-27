@@ -1,0 +1,18 @@
+{
+  "RC307": {
+    "description": "Binding energy threshold",
+    "all_of": [ {"metric": "dG", "op": "<=", "value": -6.0} ]
+  },
+  "RC205": {
+    "description": "Clash threshold",
+    "all_of": [ {"metric": "clash", "op": "<", "value": 10.0} ]
+  },
+  "RC101": {
+    "description": "Hydrophobicity limit",
+    "all_of": [ {"metric": "hydro", "op": "<=", "value": 0.5} ]
+  },
+  "RC401": {
+    "description": "Stability minimum",
+    "all_of": [ {"metric": "stability", "op": ">=", "value": 0.8} ]
+  }
+}
